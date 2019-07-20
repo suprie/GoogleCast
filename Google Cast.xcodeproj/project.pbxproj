@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122BC21D22E078660037F9A7 /* Utama.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122BC21C22E078660037F9A7 /* Utama.storyboard */; };
 		12F038B722E03473005F6C9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F038B622E03473005F6C9A /* AppDelegate.swift */; };
 		12F038B922E03473005F6C9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F038B822E03473005F6C9A /* SceneDelegate.swift */; };
 		12F038BB22E03473005F6C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F038BA22E03473005F6C9A /* ContentView.swift */; };
@@ -14,6 +15,8 @@
 		12F038C022E03475005F6C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F038BF22E03475005F6C9A /* Preview Assets.xcassets */; };
 		12F038C322E03475005F6C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F038C122E03475005F6C9A /* LaunchScreen.storyboard */; };
 		12F038CE22E03475005F6C9A /* Google_CastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F038CD22E03475005F6C9A /* Google_CastTests.swift */; };
+		6EE43AC88E70A89EB5D49862 /* Pods_Google_CastTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE45A0BE29F893DBE240254 /* Pods_Google_CastTests.framework */; };
+		CE23483DF0355F6DCA5BF18E /* Pods_Google_Cast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6EF55B8028DA7E99620ABA /* Pods_Google_Cast.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		122BC21C22E078660037F9A7 /* Utama.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Utama.storyboard; sourceTree = "<group>"; };
 		12F038B322E03473005F6C9A /* Google Cast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Cast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F038B622E03473005F6C9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12F038B822E03473005F6C9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,12 @@
 		12F038C922E03475005F6C9A /* Google CastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google CastTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F038CD22E03475005F6C9A /* Google_CastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_CastTests.swift; sourceTree = "<group>"; };
 		12F038CF22E03475005F6C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6EF55B8028DA7E99620ABA /* Pods_Google_Cast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Google_Cast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CC902636B8CD627CFF411A /* Pods-Google Cast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast.release.xcconfig"; path = "Target Support Files/Pods-Google Cast/Pods-Google Cast.release.xcconfig"; sourceTree = "<group>"; };
+		7F7EC76B761EC1B313B965B3 /* Pods-Google Cast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast.debug.xcconfig"; path = "Target Support Files/Pods-Google Cast/Pods-Google Cast.debug.xcconfig"; sourceTree = "<group>"; };
+		7FE45A0BE29F893DBE240254 /* Pods_Google_CastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Google_CastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F014764A738F32E2187F612 /* Pods-Google CastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google CastTests.release.xcconfig"; path = "Target Support Files/Pods-Google CastTests/Pods-Google CastTests.release.xcconfig"; sourceTree = "<group>"; };
+		DDBDED899248D5519FE67506 /* Pods-Google CastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google CastTests.debug.xcconfig"; path = "Target Support Files/Pods-Google CastTests/Pods-Google CastTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE23483DF0355F6DCA5BF18E /* Pods_Google_Cast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE43AC88E70A89EB5D49862 /* Pods_Google_CastTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +76,8 @@
 				12F038B522E03473005F6C9A /* Google Cast */,
 				12F038CC22E03475005F6C9A /* Google CastTests */,
 				12F038B422E03473005F6C9A /* Products */,
+				340CFBAB9384B285F9C0C5DC /* Pods */,
+				88FDBC5292610A85D3143AD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +100,7 @@
 				12F038C122E03475005F6C9A /* LaunchScreen.storyboard */,
 				12F038C422E03475005F6C9A /* Info.plist */,
 				12F038BE22E03475005F6C9A /* Preview Content */,
+				122BC21C22E078660037F9A7 /* Utama.storyboard */,
 			);
 			path = "Google Cast";
 			sourceTree = "<group>";
@@ -107,6 +122,26 @@
 			path = "Google CastTests";
 			sourceTree = "<group>";
 		};
+		340CFBAB9384B285F9C0C5DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F7EC76B761EC1B313B965B3 /* Pods-Google Cast.debug.xcconfig */,
+				64CC902636B8CD627CFF411A /* Pods-Google Cast.release.xcconfig */,
+				DDBDED899248D5519FE67506 /* Pods-Google CastTests.debug.xcconfig */,
+				8F014764A738F32E2187F612 /* Pods-Google CastTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88FDBC5292610A85D3143AD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F6EF55B8028DA7E99620ABA /* Pods_Google_Cast.framework */,
+				7FE45A0BE29F893DBE240254 /* Pods_Google_CastTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F038D222E03475005F6C9A /* Build configuration list for PBXNativeTarget "Google Cast" */;
 			buildPhases = (
+				4B903EB84FFD3DB72089C5F9 /* [CP] Check Pods Manifest.lock */,
 				12F038AF22E03473005F6C9A /* Sources */,
 				12F038B022E03473005F6C9A /* Frameworks */,
 				12F038B122E03473005F6C9A /* Resources */,
+				597215612ABA5AAD6A2EB918 /* [CP] Embed Pods Frameworks */,
+				DF1ACE804F9F152905FA7C7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F038D522E03475005F6C9A /* Build configuration list for PBXNativeTarget "Google CastTests" */;
 			buildPhases = (
+				791F0A85B81B7502D6CF9D91 /* [CP] Check Pods Manifest.lock */,
 				12F038C522E03475005F6C9A /* Sources */,
 				12F038C622E03475005F6C9A /* Frameworks */,
 				12F038C722E03475005F6C9A /* Resources */,
@@ -191,6 +230,7 @@
 				12F038C322E03475005F6C9A /* LaunchScreen.storyboard in Resources */,
 				12F038C022E03475005F6C9A /* Preview Assets.xcassets in Resources */,
 				12F038BD22E03475005F6C9A /* Assets.xcassets in Resources */,
+				122BC21D22E078660037F9A7 /* Utama.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +242,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B903EB84FFD3DB72089C5F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Google Cast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		597215612ABA5AAD6A2EB918 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast/Pods-Google Cast-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast/Pods-Google Cast-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Google Cast/Pods-Google Cast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		791F0A85B81B7502D6CF9D91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Google CastTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1ACE804F9F152905FA7C7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast/Pods-Google Cast-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast/Pods-Google Cast-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Google Cast/Pods-Google Cast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12F038AF22E03473005F6C9A /* Sources */ = {
@@ -360,6 +481,7 @@
 		};
 		12F038D322E03475005F6C9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7EC76B761EC1B313B965B3 /* Pods-Google Cast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +501,7 @@
 		};
 		12F038D422E03475005F6C9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CC902636B8CD627CFF411A /* Pods-Google Cast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +521,7 @@
 		};
 		12F038D622E03475005F6C9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBDED899248D5519FE67506 /* Pods-Google CastTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +542,7 @@
 		};
 		12F038D722E03475005F6C9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F014764A738F32E2187F612 /* Pods-Google CastTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

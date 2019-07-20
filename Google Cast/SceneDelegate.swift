@@ -8,13 +8,25 @@
 
 import UIKit
 import SwiftUI
+import GoogleCast
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+class SceneDelegate: UIResponder, UIWindowSceneDelegate, GCKLoggerDelegate {
 
     var window: UIWindow?
+    let kReceiverAppID = kGCKDefaultMediaReceiverApplicationID
+    let kDebugLoggingEnabled = true
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        
+        let criteria = GCKDiscoveryCriteria(applicationID: kReceiverAppID)
+        let options = GCKCastOptions(discoveryCriteria: criteria)
+        GCKCastContext.setSharedInstanceWith(options)
+        
+        GCKLogger.sharedInstance().delegate = self
+        
+//        guard let _ = (scene as? UIWindowScene) else { return }
+        
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
@@ -56,6 +68,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
-
+    func logMessage(_ message: String,
+                    at level: GCKLoggerLevel,
+                    fromFunction function: String,
+                    location: String) {
+        if (kDebugLoggingEnabled) {
+            print(function + " - " + message)
+        }
+    }
 }
 
